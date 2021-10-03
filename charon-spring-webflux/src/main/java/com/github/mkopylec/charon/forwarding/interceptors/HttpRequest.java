@@ -20,7 +20,7 @@ public class HttpRequest implements ClientRequest {
 
     private ClientRequest delegate;
 
-    HttpRequest(ClientRequest request) {
+    public HttpRequest(ClientRequest request) {
         delegate = request;
     }
 
